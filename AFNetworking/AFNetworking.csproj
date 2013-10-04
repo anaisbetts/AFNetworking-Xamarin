@@ -24,7 +24,7 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <CustomCommands>
       <CustomCommands>
-        <Command type="BeforeBuild" command="${SolutionDir}/vendor/afnetworking/build-static-lib" workingdir="${SolutionDir}/vendor/afnetworking" />
+        <Command type="BeforeBuild" command="${ProjectDir}/../vendor/afnetworking/build-static-lib" workingdir="${ProjectDir}/../vendor/afnetworking" />
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
