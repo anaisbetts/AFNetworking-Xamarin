@@ -23,3 +23,6 @@ NuGet-Release
 version-bump.patch
 
 packages
+*.userprefs
+
+.DS_Store
